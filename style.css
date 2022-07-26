@@ -1,0 +1,203 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image:url(images/bggg.jpg) ;
+    background-size: cover;
+}
+
+.cubaone {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    background-color: wheat;
+    margin-bottom: 20px;
+    padding: 10;
+    border-radius: 35%;
+    align-items: center;
+    justify-content: center;
+}
+.phil   {
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    border-radius: 20%;
+    border: 2px;
+    border-style: groove;
+    border-color: wheat;
+}
+.buttons    {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    flex: 1;
+}
+.maintext {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 20px;
+}
+button {
+    height: 80px;
+    width: 150px;
+    background-color: bisque;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    border-radius: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lhead  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.limg   {
+    display: flex;
+    justify-content: center;   
+}
+.lingredients   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    border-color: aliceblue;
+    padding: 50;
+    width: 300px;
+    height: 250px;
+    border-width: 5px;
+    border-color: wheat;
+    padding: 25px;
+    border-style: ridge;
+}
+
+.lsteps {
+    display: flex;
+    width: 75%;
+    height: 30%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-style: ridge;
+    border-width: 5px;
+    padding: 20px;
+    border-color: wheat;
+
+}
+.mm {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.lenjoy {
+    display: flex;
+    justify-content: center;
+}
+.llink  {
+    display: flex;
+    justify-content: space-between;
+}
+.ctittle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.cimg   {
+    display: flex;
+    justify-content: center;
+}
+
+.cmain  {
+    display: flex;
+    justify-content: center;
+    gap: 25px   ;
+}
+.csteps {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    flex-direction: column;
+    border: 5px;
+    border-style: groove;
+    border-color: wheat;
+    width: 75%;
+
+
+}
+.cingre {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    flex-direction: column;
+    border: 5px;
+    border-style: groove;
+    border-color: wheat;
+    width: 20%;
+}
+.cdisclaimer {
+    text-align: center;
+}
+
+.cbutton    {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cctittle   {
+    text-align: center;
+}
+.ccimg  {
+    display: flex;
+    justify-content: center;
+}
+
+.ccmain {
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.ccingre    {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 5px;
+    border-style: groove;
+    border-color: wheat;
+    height: 250px;
+
+}
+
+.ccsteps    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px;
+    border-style: groove;
+    border-color: wheat;
+    margin-left: 320px;
+
+}
+
+.ccbutton  {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
